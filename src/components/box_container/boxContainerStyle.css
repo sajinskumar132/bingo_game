@@ -1,0 +1,35 @@
+.grid_conatiner_header_text{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.grid_main_container{
+    position: relative;
+    display: grid;
+    grid-template-columns:  repeat(5, auto);
+    text-align: center;
+    border: 1px solid gray;
+    min-width: 300px;
+}
+.sub_grid_containers_with_right_botton_border{
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+.sub_grid_containers_with_botton_border{
+    border-bottom: 1px solid gray;
+}
+
+.sub_grid_containers_with_right_border{
+    border-right: 1px solid gray;
+}
+.main_box_container{
+    position: relative;
+}
+.grid_bot_visibility_container{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 1px solid gray;
+    background-color: white;
+}
