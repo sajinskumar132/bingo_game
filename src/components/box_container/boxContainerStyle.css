@@ -9,8 +9,9 @@
     display: grid;
     grid-template-columns:  repeat(5, auto);
     text-align: center;
-    border: 1px solid gray;
+    border: 1px solid rgb(204, 204, 204);
     min-width: 300px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 .sub_grid_containers_with_right_botton_border{
     border-right: 1px solid gray;
@@ -30,6 +31,24 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    border: 1px solid gray;
+    /* border: 1px solid gray; */
     background-color: white;
+}
+.grid_bot_text{
+    color: rgb(0, 119, 255);
+    font-size: 20px;
+    font-weight: bold;
+}
+.grid_bot_generated_values{
+    color: rgb(0, 119, 255);
+    font-size: 18px;
+    font-weight: bold;
+}
+.grid_bot_gif{
+    width: 160px;
+    height: 150px;
+}
+.bingo_text{
+    font-size: 20px;
+    font-weight: 600;
 }
